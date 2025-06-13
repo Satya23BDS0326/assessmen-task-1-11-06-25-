@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlickFinder</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .logo span {
+      color: #1abc9c;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 14px;
+    }
+
+    .favorite-btn {
+      background-color: #1abc9c;
+      border: none;
+      padding: 8px 16px;
+      color: white;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1601758003122-58e7f2c4a0f1'); /* Use your own image if needed */
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      max-width: 500px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 10px 20px;
+      background-color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo"><span>Flick</span>Finder</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Tv Show</a>
+      <a href="#">Movie</a>
+      <a href="#">Upcoming</a>
+    </nav>
+    <button class="favorite-btn">Favorite ♥</button>
+  </header>
+
+  <section class="hero">
+    <h1>Bringing the Big Screen to Your Screen</h1>
+    <p>Discover, critique, and celebrate movies with honest reviews and fresh takes on every film.</p>
+    <button>Discover More.</button>
+  </section>
+
+</body>
+</html>
